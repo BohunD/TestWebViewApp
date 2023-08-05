@@ -1,6 +1,11 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
     <style name="Base.Theme.TestWebViewApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#4CAF50</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- Hide the navigation bar (bottom bar with buttons) -->
+        <item name="android:windowContentOverlay">@null</item>
+        <!-- Other style attributes -->
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
